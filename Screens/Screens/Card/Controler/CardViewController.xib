@@ -12,6 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardViewController" customModule="Screens" customModuleProvider="target">
             <connections>
                 <outlet property="cardTableView" destination="Hel-du-0Yc" id="CKZ-dW-lIQ"/>
+                <outlet property="totlePriceLbl" destination="LJt-EJ-eI4" id="hLw-rV-jEt"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

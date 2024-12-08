@@ -11,6 +11,7 @@
 		1569085F2D04621C00B978C5 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1569085D2D04621C00B978C5 /* CardViewController.xib */; };
 		156908622D04664C00B978C5 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156908602D04664C00B978C5 /* CardTableViewCell.swift */; };
 		156908632D04664C00B978C5 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 156908612D04664C00B978C5 /* CardTableViewCell.xib */; };
+		1578362F2D058DC10007EC07 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578362E2D058DC10007EC07 /* Dish.swift */; };
 		15D07E682D01ACD8009C3B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D07E672D01ACD8009C3B04 /* AppDelegate.swift */; };
 		15D07E6F2D01ACD8009C3B04 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 15D07E6E2D01ACD8009C3B04 /* Base */; };
 		15D07E712D01ACDB009C3B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D07E702D01ACDB009C3B04 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		1569085D2D04621C00B978C5 /* CardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
 		156908602D04664C00B978C5 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
 		156908612D04664C00B978C5 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		1578362E2D058DC10007EC07 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		15D07E642D01ACD8009C3B04 /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D07E672D01ACD8009C3B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15D07E6E2D01ACD8009C3B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1578362D2D058D420007EC07 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				1578362E2D058DC10007EC07 /* Dish.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
 		15D07E5B2D01ACD8009C3B04 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		15D07E662D01ACD8009C3B04 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				1578362D2D058D420007EC07 /* Modle */,
 				15D07E872D01B124009C3B04 /* Uitilities */,
 				15D07E7B2D01AD30009C3B04 /* Screens */,
 				15D07E672D01ACD8009C3B04 /* AppDelegate.swift */,
@@ -241,6 +252,7 @@
 			files = (
 				15D07E852D01B015009C3B04 /* NotificationsTableViewCell.swift in Sources */,
 				156908622D04664C00B978C5 /* CardTableViewCell.swift in Sources */,
+				1578362F2D058DC10007EC07 /* Dish.swift in Sources */,
 				15D07E8A2D01B140009C3B04 /* Colors.swift in Sources */,
 				15D07E682D01ACD8009C3B04 /* AppDelegate.swift in Sources */,
 				1569085E2D04621C00B978C5 /* CardViewController.swift in Sources */,
